@@ -4,10 +4,7 @@ ICDF-Net for Heterogeneous Change Detection of Remote Sensing Images. The comple
 
 # Dataset Preparation
 
-The code supports commonly used heterogeneous remote sensing change
-detection datasets.
-
-The dataset should be organized according to the following structure:
+Please organize the dataset according to the following structure:
 
     dataset/
     ├── train/
