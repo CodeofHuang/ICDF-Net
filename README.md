@@ -6,21 +6,80 @@ PyTorch implementation of **Deep Unfolding for Heterogeneous Change Detection: A
 
 We kindly suggest structuring the dataset in the following way:
 
-    dataset/
+### CAU-Flood
+
+```text
+datasets/
+└── CAU-Flood/
     ├── train/
-    │   ├── A/
-    │   ├── B/
+    │   ├── rgb/
+    │   ├── sar/
+    │   └── mask/
+    ├── val/
+    │   ├── rgb/
+    │   ├── sar/
+    │   └── mask/
+    └── test/
+        ├── rgb/
+        ├── sar/
+        └── mask/
+```
+
+Here:
+
+* `rgb/` contains the optical images.
+* `sar/` contains the corresponding SAR images.
+* `mask/` contains the binary change maps.
+
+### Wuhan
+
+```text
+datasets/
+└── Wuhan/
+    ├── train/
+    │   ├── rgb/
+    │   ├── sar/
+    │   └── mask/
+    ├── val/
+    │   ├── rgb/
+    │   ├── sar/
+    │   └── mask/
+    └── test/
+        ├── rgb/
+        ├── sar/
+        └── mask/
+```
+
+Here:
+
+* `rgb/` contains the optical images.
+* `sar/` contains the corresponding SAR images.
+* `mask/` contains the binary change maps.
+
+### Florence
+
+```text
+datasets/
+└── Florence/
+    ├── train/
+    │   ├── sat/
+    │   ├── uav/
     │   └── label/
     ├── val/
-    │   ├── A/
-    │   ├── B/
+    │   ├── sat/
+    │   ├── uav/
     │   └── label/
     └── test/
-        ├── A/
-        ├── B/
+        ├── sat/
+        ├── uav/
         └── label/
+```
 
-where A and B represent two heterogeneous remote sensing images, and label represents the corresponding change maps.
+Here:
+
+* `sat/` contains the pre-event satellite images.
+* `uav/` contains the corresponding post-event UAVSAR images.
+* `label/` contains the binary change maps.
 
 # Contact
 
