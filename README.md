@@ -1,6 +1,6 @@
 # ICDF-Net
 
-ICDF-Net for Heterogeneous Change Detection of Remote Sensing Images. The complete implementation will be made publicly available after the review process.
+PyTorch implementation of **Deep Unfolding for Heterogeneous Change Detection: A Latent Calibration and Structured Separation Approach**
 
 # Dataset Preparation
 
@@ -20,5 +20,8 @@ We kindly suggest structuring the dataset in the following way:
         ├── B/
         └── label/
 
-where A and B represent two heterogeneous remote sensing images, and
-label represents the corresponding change maps.
+where A and B represent two heterogeneous remote sensing images, and label represents the corresponding change maps.
+
+# Contact
+
+For questions regarding the code, please do not hesitate to contact us at: dearhyk@126.com
