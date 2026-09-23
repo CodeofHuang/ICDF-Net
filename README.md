@@ -24,4 +24,4 @@ where A and B represent two heterogeneous remote sensing images, and label repre
 
 # Contact
 
-For questions regarding the code, please do not hesitate to contact us at: dearhyk@126.com
+For any questions related to this work, please do not hesitate to contact us at: dearhyk@126.com
